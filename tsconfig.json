@@ -1,4 +1,8 @@
 {
+  "compilerOptions": {
+    "jsx": "preserve", // 或 "react-jsx"（视具体情况而定）
+    "types": ["vite/client", "vue"]
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
