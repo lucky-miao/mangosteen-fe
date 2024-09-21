@@ -1,15 +1,11 @@
 import { createApp } from 'vue'
 import './style.css'
 import {App} from './App'
-import { Footer } from './components/Footer'
-import { Bar } from './components/Bar'
 import { createWebHistory, createRouter } from 'vue-router'
+import { routes } from './config/routes'
 
 
-const routes = [
-    { path: '/footer', component: Footer },
-    { path: '/bar', component: Bar },
-]
+
 const router = createRouter({
   history: createWebHistory(),
   routes,
