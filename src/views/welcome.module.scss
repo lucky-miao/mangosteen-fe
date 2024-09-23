@@ -1,0 +1,20 @@
+.wapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    >header{
+        flex-shrink: 0;
+
+    }
+    >main{
+        flex-grow: 1;
+        background-color: green;
+
+    }
+    >footer{
+        flex-shrink: 0;
+
+    }
+
+
+}

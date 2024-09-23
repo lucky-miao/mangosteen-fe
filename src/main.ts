@@ -4,8 +4,6 @@ import {App} from './App'
 import { createWebHistory, createRouter } from 'vue-router'
 import { routes } from './config/routes'
 
-
-
 const router = createRouter({
   history: createWebHistory(),
   routes,
